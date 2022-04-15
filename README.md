@@ -2,5 +2,8 @@
 김남욱, 김나린, 이진석, 이제훈, 이호열, 임채은
 
 
-> LHY contents update
-> LHY contents update in lhy branch
+<<<<<<< HEAD
+> LHY contents update in lhy branch on own repository
+=======
+
+git config testing..
