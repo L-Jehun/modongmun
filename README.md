@@ -3,9 +3,7 @@
 
 
 <<<<<<< HEAD
-> LHY contents update
 > LHY contents update in lhy branch on own repository
 =======
 
 git config testing..
->>>>>>> 37c41a76f15c20920030635e1f37ba759f745d99
