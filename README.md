@@ -4,6 +4,7 @@
 
 <<<<<<< HEAD
 > LHY contents update
+> LHY contents update in lhy branch on own repository
 =======
 
 git config testing..
