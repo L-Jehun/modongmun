@@ -4,3 +4,5 @@
 
 
 git config testing..
+
+git message testing..
