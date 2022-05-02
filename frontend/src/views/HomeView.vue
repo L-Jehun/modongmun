@@ -1,5 +1,6 @@
 <template>
   <div id="home">
+    <Nav />
     <div class="sections-menu">
       <span
         class="menu-point"
@@ -10,20 +11,44 @@
       >
       </span>
     </div>
-    <section class="fullpage blue">
-      <Nav />
-      <h1>Section 2</h1>
-      <div></div>
+
+    <section class="fullpage">
+      <div class="items-center grid grid-cols-2">
+        <div class="col-span-1 p-20">
+          <img src="../assets/sample1.png" />
+        </div>
+        <div class="logo col-span-1 p-20">
+          <img src="../assets/logo.png" />
+          <div class="font-bold text-3xl mb-3">
+            메타버스에서 옛 친구들을 만나보세요
+          </div>
+          <div>
+            메타버스는 어쩌구 저쩌구~~ 모여봐요 동문의숲은 어쩌구저쩌구~~~
+          </div>
+        </div>
+      </div>
     </section>
-    <section class="fullpage black">
-      <h1>Section 2</h1>
-      <p>made with <a href="https://vuejs.org/" target="_blank">Vue.js</a></p>
+    <section class="fullpage">
+      <div class="items-center grid grid-cols-2">
+        <div class="logo col-span-1 p-20">
+          <img src="../assets/logo.png" />
+          <div class="font-bold text-3xl mb-3">
+            메타버스에서 옛 친구들을 만나보세요
+          </div>
+          <div>
+            메타버스는 어쩌구 저쩌구~~ 모여봐요 동문의숲은 어쩌구저쩌구~~~
+          </div>
+        </div>
+        <div class="col-span-1 p-20">
+          <img src="../assets/sample2.png" />
+        </div>
+      </div>
     </section>
-    <section class="fullpage red">
+    <section class="fullpage">
       <h1>Section 3</h1>
       <p>works on <b>desktop & mobile</b></p>
     </section>
-    <section class="fullpage green">
+    <section class="fullpage">
       <h1>Section 4</h1>
       <p>
         Tutorial
@@ -153,7 +178,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 body {
   margin: 0;
   color: #fff;
@@ -170,31 +195,6 @@ body {
   flex-direction: column;
 }
 
-.fullpage a {
-  text-decoration: none;
-  font-weight: 600;
-  background: rgba(255, 255, 255, 0.3);
-  padding: 5px 10px;
-  color: #fff;
-  margin-left: 5px;
-}
-
-.red {
-  background-color: #ab4545;
-}
-
-section.black {
-  background-color: #000;
-}
-
-.blue {
-  background-color: #237ad4;
-}
-
-.green {
-  background-color: #68c368;
-}
-
 .sections-menu {
   position: fixed;
   right: 1rem;
@@ -205,7 +205,7 @@ section.black {
 .sections-menu .menu-point {
   width: 10px;
   height: 10px;
-  background-color: #fff;
+  background-color: #000;
   display: block;
   margin: 1rem 0;
   opacity: 0.6;
@@ -216,5 +216,11 @@ section.black {
 .sections-menu .menu-point.active {
   opacity: 1;
   transform: scale(1.5);
+}
+.logo {
+  text-align: -webkit-center;
+}
+.logo img {
+  width: 100%;
 }
 </style>
