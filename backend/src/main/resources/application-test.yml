@@ -1,4 +1,8 @@
 spring:
+  ### profiles
+  profiles:
+    include: aws
+
   ### Datasource
   datasource:
     driver-class-name: org.h2.Driver
